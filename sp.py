@@ -6,7 +6,7 @@ import wikipedia as wiki
 import time
 
 fn="hello1.mp3"
-app_id = "YRRQ8V-P93VL22LR2"   #wolframalpha_api_id
+app_id = ""   #wolframalpha_api_id
 welcome="hello i am assitant how can i help you "
 ts=gTTS(welcome,lang="en",slow=False)
 ts.save(fn)
